@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Натсольный теннис в Ангарске для любителей и профессионалов. В нашем клубе проходят занятия для взрослых и детей в формате групповых тренировок, а также индивидальных занятий.">
+
+	<meta name="keywords" content="настольный теннис, настольный теннис ангарск, клуб настольного тениса, TTClub ангарск, поиграть в настольный теннис Ангарск, прокат столов в ангарске, тренировки по настольному теннису в ангарске">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header data-scroll-show data-scroll="100" class="header">
+
+			<div class="nav__logo">
+				<a href="index.html">
+					<img src="img/logo6.png" alt="logo TTclub Angarsk">
+				</a>
+			</div>
+
+			<nav class="header__nav nav">
+				<ul class="header__list">
+					<li class="header__list-item">
+						<a data-goto=".welcome" href="#" class="header__link menu__link">О НАС </a>
+					</li>
+					<li class="header__list-item">
+						<a data-goto=".team" href="#" class="header__link menu__link">ТРЕНЕРЫ</a>
+					</li>
+					<li class="header__list-item">
+						<a data-goto=".services" href="#" class="header__link menu__link">ПРАЙС </a>
+					</li>
+					<li class="header__list-item">
+						<a data-goto=".gallery" href="#" class="header__link menu__link">ЖИЗНЬ КЛУБА</a>
+					</li>
+					<li class="header__list-item">
+						<a data-goto=".footer" href="#" class="header__link menu__link"> КОНТАКТЫ</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="header__nav-tel">
+				<svg width="20px" height="20px" viewBox="0 0 20 21" fill="#FCF9F2">
+					<path d="M19.4296 14.6706L15.0546 12.7955C14.8677 12.7159 14.6599 12.6991 14.4627 12.7477C14.2654 12.7963 14.0893 12.9077 13.9608 13.0651L12.0233 15.4323C8.98248 13.9986 6.53535 11.5515 5.10165 8.51068L7.46888 6.57314C7.62657 6.44489 7.73818 6.26875 7.78681 6.07139C7.83545 5.87404 7.81846 5.66621 7.73841 5.47937L5.86338 1.10429C5.77553 0.902888 5.62016 0.738446 5.42406 0.639325C5.22795 0.540203 5.00341 0.512615 4.78914 0.561316L0.726575 1.49883C0.519997 1.54654 0.335687 1.66285 0.203728 1.82879C0.0717689 1.99474 -4.75872e-05 2.20051 2.36575e-08 2.41252C2.36575e-08 12.4322 8.12123 20.5378 18.1253 20.5378C18.3374 20.538 18.5433 20.4662 18.7093 20.3342C18.8753 20.2023 18.9917 20.0179 19.0394 19.8113L19.9769 15.7487C20.0253 15.5334 19.9971 15.3079 19.8972 15.1112C19.7973 14.9144 19.632 14.7586 19.4296 14.6706Z" />
+				</svg>
+				<a href="tel:79025432545" class="header__nav-tel">+ 7 902 543 25 45</a>
+			</div>
+
+			<div class="header__nav-icons nav__icons">
+				<div class="nav__icon">
+					<a href="#"><svg width="30px" height="30px" viewBox="0 0 30 31" fill="#FCF9F2">
+							<path d="M15.0033 7.47684C10.7468 7.47684 7.31344 10.911 7.31344 15.1685C7.31344 19.426 10.7468 22.8601 15.0033 22.8601C19.2599 22.8601 22.6933 19.426 22.6933 15.1685C22.6933 10.911 19.2599 7.47684 15.0033 7.47684ZM15.0033 20.169C12.2527 20.169 10.0039 17.9265 10.0039 15.1685C10.0039 12.4105 12.246 10.1679 15.0033 10.1679C17.7607 10.1679 20.0028 12.4105 20.0028 15.1685C20.0028 17.9265 17.754 20.169 15.0033 20.169V20.169ZM24.8015 7.16221C24.8015 8.15964 23.9983 8.95625 23.0078 8.95625C22.0106 8.95625 21.2142 8.15295 21.2142 7.16221C21.2142 6.17147 22.0173 5.36817 23.0078 5.36817C23.9983 5.36817 24.8015 6.17147 24.8015 7.16221ZM29.8946 8.98303C29.7808 6.57981 29.232 4.45106 27.4718 2.69719C25.7184 0.943309 23.5901 0.394386 21.1874 0.27389C18.7111 0.133313 11.2889 0.133313 8.81261 0.27389C6.41662 0.387692 4.28834 0.936615 2.52817 2.69049C0.767987 4.44437 0.225878 6.57312 0.10541 8.97633C-0.0351366 11.4532 -0.0351366 18.877 0.10541 21.3539C0.219186 23.7571 0.767987 25.8859 2.52817 27.6397C4.28834 29.3936 6.40993 29.9425 8.81261 30.063C11.2889 30.2036 18.7111 30.2036 21.1874 30.063C23.5901 29.9492 25.7184 29.4003 27.4718 27.6397C29.2253 25.8859 29.7741 23.7571 29.8946 21.3539C30.0351 18.877 30.0351 11.4599 29.8946 8.98303V8.98303ZM26.6955 24.0115C26.1735 25.3235 25.1629 26.3344 23.8444 26.8632C21.8701 27.6464 17.1852 27.4657 15.0033 27.4657C12.8215 27.4657 8.12995 27.6397 6.1623 26.8632C4.85053 26.3411 3.83993 25.3302 3.31121 24.0115C2.52817 22.0367 2.70887 17.3508 2.70887 15.1685C2.70887 12.9862 2.53486 8.29353 3.31121 6.32544C3.83324 5.01337 4.84384 4.00255 6.1623 3.47371C8.13664 2.69049 12.8215 2.87123 15.0033 2.87123C17.1852 2.87123 21.8767 2.69719 23.8444 3.47371C25.1562 3.99586 26.1668 5.00668 26.6955 6.32544C27.4785 8.30022 27.2978 12.9862 27.2978 15.1685C27.2978 17.3508 27.4785 22.0434 26.6955 24.0115Z" />
+						</svg></a>
+				</div>
+				<div class="nav__icon">
+					<a href="#"><svg width="30px" height="30px" fill="#FCF9F2" viewBox="0 0 512 512">
+							<path d="M444 49.9C431.3 38.2 379.9.9 265.3.4c0 0-135.1-8.1-200.9 52.3C27.8 89.3 14.9 143 13.5 209.5c-1.4 66.5-3.1 191.1 117 224.9h.1l-.1 51.6s-.8 20.9 13 25.1c16.6 5.2 26.4-10.7 42.3-27.8 8.7-9.4 20.7-23.2 29.8-33.7 82.2 6.9 145.3-8.9 152.5-11.2 16.6-5.4 110.5-17.4 125.7-142 15.8-128.6-7.6-209.8-49.8-246.5zM457.9 287c-12.9 104-89 110.6-103 115.1-6 1.9-61.5 15.7-131.2 11.2 0 0-52 62.7-68.2 79-5.3 5.3-11.1 4.8-11-5.7 0-6.9.4-85.7.4-85.7-.1 0-.1 0 0 0-101.8-28.2-95.8-134.3-94.7-189.8 1.1-55.5 11.6-101 42.6-131.6 55.7-50.5 170.4-43 170.4-43 96.9.4 143.3 29.6 154.1 39.4 35.7 30.6 53.9 103.8 40.6 211.1zm-139-80.8c.4 8.6-12.5 9.2-12.9.6-1.1-22-11.4-32.7-32.6-33.9-8.6-.5-7.8-13.4.7-12.9 27.9 1.5 43.4 17.5 44.8 46.2zm20.3 11.3c1-42.4-25.5-75.6-75.8-79.3-8.5-.6-7.6-13.5.9-12.9 58 4.2 88.9 44.1 87.8 92.5-.1 8.6-13.1 8.2-12.9-.3zm47 13.4c.1 8.6-12.9 8.7-12.9.1-.6-81.5-54.9-125.9-120.8-126.4-8.5-.1-8.5-12.9 0-12.9 73.7.5 133 51.4 133.7 139.2zM374.9 329v.2c-10.8 19-31 40-51.8 33.3l-.2-.3c-21.1-5.9-70.8-31.5-102.2-56.5-16.2-12.8-31-27.9-42.4-42.4-10.3-12.9-20.7-28.2-30.8-46.6-21.3-38.5-26-55.7-26-55.7-6.7-20.8 14.2-41 33.3-51.8h.2c9.2-4.8 18-3.2 23.9 3.9 0 0 12.4 14.8 17.7 22.1 5 6.8 11.7 17.7 15.2 23.8 6.1 10.9 2.3 22-3.7 26.6l-12 9.6c-6.1 4.9-5.3 14-5.3 14s17.8 67.3 84.3 84.3c0 0 9.1.8 14-5.3l9.6-12c4.6-6 15.7-9.8 26.6-3.7 14.7 8.3 33.4 21.2 45.8 32.9 7 5.7 8.6 14.4 3.8 23.6z" />
+						</svg></a>
+				</div>
+			</div>
+
+			<div class="icon-menu">
+				<span></span>
+			</div>
+
+		</header>
+
+		<!-- =============================Hero section=================================== -->
+
+		<section class="hero">
+			<div class="hero__container __container">
+				<div class="hero__info">
+					<h1 class="hero__title main__title">Клуб настольного тенниса
+						в Ангарске</h1>
+					<ul class="hero__list">
+						<li class="hero__list-item subtitle">обучение от 5 до 90 лет</li>
+						<li class="hero__list-item subtitle">профессиональный тренер</li>
+						<li class="hero__list-item subtitle">1-й урок для детей - бесплатный</li>
+					</ul>
+				</div>
+				<a href="tel:79025432545" class="hero__btn">
+					<svg width="35px" height="35px" viewBox="0 0 20 21" fill="#AB0A0A">
+						<path d="M19.4296 14.6706L15.0546 12.7955C14.8677 12.7159 14.6599 12.6991 14.4627 12.7477C14.2654 12.7963 14.0893 12.9077 13.9608 13.0651L12.0233 15.4323C8.98248 13.9986 6.53535 11.5515 5.10165 8.51068L7.46888 6.57314C7.62657 6.44489 7.73818 6.26875 7.78681 6.07139C7.83545 5.87404 7.81846 5.66621 7.73841 5.47937L5.86338 1.10429C5.77553 0.902888 5.62016 0.738446 5.42406 0.639325C5.22795 0.540203 5.00341 0.512615 4.78914 0.561316L0.726575 1.49883C0.519997 1.54654 0.335687 1.66285 0.203728 1.82879C0.0717689 1.99474 -4.75872e-05 2.20051 2.36575e-08 2.41252C2.36575e-08 12.4322 8.12123 20.5378 18.1253 20.5378C18.3374 20.538 18.5433 20.4662 18.7093 20.3342C18.8753 20.2023 18.9917 20.0179 19.0394 19.8113L19.9769 15.7487C20.0253 15.5334 19.9971 15.3079 19.8972 15.1112C19.7973 14.9144 19.632 14.7586 19.4296 14.6706Z" />
+					</svg>
+				</a>
+			</div>
+		</section>
+
+		<!-- ====================================Header slider=========================== -->
+
+		<div class="header__slider-section">
+			<div class="header__slider swiper">
+				<div class="header__slider-wrapper swiper-wrapper">
+
+					<div class="header__slider-slide swiper-slide">
+						<div class="header__slider-gallery-item">
+							<img data-src="img/gallery/galery01.jpg" alt="игра в настольный теннис">
+						</div>
+					</div>
+
+					<div class="header__slider-slide swiper-slide">
+						<div class="header__slider-gallery-item">
+							<img data-src="img/gallery/galery03.jpg" alt="игра в настольный теннис">
+						</div>
+					</div>
+
+					<div class="header__slider-slide swiper-slide">
+						<div class="header__slider-gallery-item">
+							<img data-src="img/gallery/galery04.jpg" alt="игра в настольный теннис">
+						</div>
+					</div>
+
+					<div class="header__slider-slide swiper-slide">
+						<div class="header__slider-gallery-item">
+							<img data-src="img/gallery/galery05.jpg" alt="игра в настольный теннис">
+						</div>
+					</div>
+
+					<div class="header__slider-slide swiper-slide">
+						<div class="header__slider-gallery-item">
+							<img data-src="img/gallery/galery06.jpg" alt="игра в настольный теннис">
+						</div>
+					</div>
+
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<main class="page">
+
+
+			<!-- =================================Welcome section============================ -->
+
+			<section class="welcome" id="welcome">
+				<div class="welcome__container __container">
+					<h2 class="welcome__title section__title">Добро пожаловать в Клуб
+						TTClub Angarsk</h2>
+					<div class="welcome__grid">
+						<div class="welcome__grid-item">
+							<div class="welcome__icon">
+								<img data-src="img/icons/table.svg" alt="стол для настольного тенниса">
+							</div>
+							<p class="welcome__text"> 6 столов для настольного тенниса</p>
+						</div>
+
+						<div class="welcome__grid-item">
+							<div class="welcome__icon">
+								<img data-src="img/icons/shower.svg" alt="раздевалка с душем">
+							</div>
+							<p class="welcome__text"> Раздевалки с душевыми кабинами</p>
+						</div>
+
+						<div class="welcome__grid-item">
+							<div class="welcome__icon">
+								<img data-src="img/icons/champion.svg" alt="чемпион">
+							</div>
+							<p class="welcome__text"> Воскресные Лиги по уровню подготовки</p>
+						</div>
+
+						<div class="welcome__grid-item">
+							<div class="welcome__icon">
+								<img data-src="img/icons/kid.png" alt="чемпион">
+							</div>
+							<p class="welcome__text"> Групповые тренировки с детьми и взрослыми</p>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+
+			<!-- ==============================Services section============================== -->
+
+			<section class="services" id="services">
+				<div class="services__container __container">
+					<div class="services__row">
+
+						<div class="services__item yellow__card">
+							<img data-src="img/icons/kidbl.png" alt="дети" class="add__icon kid__icon">
+							<div class="card__title services__title">ДЕТСКИЕ ТРЕНИРОВКИ</div>
+							<p class="services__subtitle">1-й урок-бесплатно</p>
+							<div class="services__circles">
+
+								<div class="services__circle-item">
+									<p class="services__price">2500 p</p>
+									<p class="services__desc">12 занятий</p>
+								</div>
+
+								<div class="services__circle-item">
+									<p class="services__price">250 p</p>
+									<p class="services__desc">разовое занятие</p>
+								</div>
+
+								<div class="services__circle-item">
+									<p class="services__price">1800p</p>
+									<p class="services__desc">8 занятий</p>
+								</div>
+
+							</div>
+							<div class="services__about">В нашем клубе работает секция для детей от 5 до 16 лет. <p>Занятия проходят утром и вечером.</p>
+							</div>
+						</div>
+
+						<div class="services__item dark__card">
+							<img data-src="img/icons/servman.png" alt="человек подает подачу" class="add__icon serving__man">
+							<div class="card__title services__title">ВЗРОСЛЫЕ ТРЕНИРОВКИ</div>
+							<div class="services__circles">
+
+								<div class="services__circle-item">
+									<p class="services__price">3500 p</p>
+									<p class="services__desc">12 занятий</p>
+								</div>
+
+								<div class="services__circle-item">
+									<p class="services__price">350 p</p>
+									<p class="services__desc">разовое занятие</p>
+								</div>
+
+								<div class="services__circle-item">
+									<p class="services__price">2400p</p>
+									<p class="services__desc">8 занятий</p>
+								</div>
+
+							</div>
+							<div class="services__about">Занятия проходят в утренние и вечерние часы.
+								<p>Обучение от новичка до профессионала.</p>
+							</div>
+						</div>
+
+						<div class="services__item light__card">
+							<img data-src="img/icons/indiv.png" alt="играет в защите" class="add__icon defending__man">
+							<div class="card__title services__title long__title">ИНДИВИДУАЛЬНЫЕ ЗАНЯТИЯ</div>
+							<div class="services__circles">
+								<div class="services__circle-item">
+									<p class="services__price">800 p</p>
+									<p class="services__desc">1 час</p>
+								</div>
+							</div>
+							<p class="services__about">Индивидуальная тренировка с профессиональным тренером и с большим количеством мячей.</p>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<!-- =================================Team section============================== -->
+
+			<section class="team" id="team">
+				<div class="team__container __container">
+					<h2 class="team__title section__title">Наш тренерский состав</h2>
+					<p class="team__subtitle subtitle">у нас работают настоящие профессионалы с огромным опытом и большим сердцем</p>
+				</div>
+			</section>
+
+			<div class="team__card">
+				<div class="team__card-container __container">
+					<div class="team__card-grid team__grid">
+
+						<div class="team__grid-item">
+							<div class="team__grid-top">
+								<div class="team__grid-img">
+									<img data-src="img/team/coachman.jpg" alt="тренер">
+								</div>
+								<div class="team__grid-info grid__info">
+									<p class="grid__info-name info__name">Сапожников Дмитрий Геннадьевич</p>
+									<p class="grid__info-job">главный тренер TTClub Angarsk</p>
+									<p class="grid__info-exp">тренерский стаж более 30 лет</p>
+									<p class="grid__info-edu">высшее спортивное образование</p>
+								</div>
+							</div>
+							<div class="team__grid-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quaerat fugit voluptas tempora. Officiis nesciunt fuga rerum! Voluptatum a esse sit nihil quis ipsa vero? Ea porro in laborum esse?
+							</div>
+						</div>
+
+						<div class="team__grid-item">
+							<div class="team__grid-top">
+								<div class="team__grid-info grid__info second__coach">
+									<p class="grid__info-name info__name">Мильвит Ирина Александровна</p>
+									<p class="grid__info-job"> тренер TTClub Angarsk</p>
+									<p class="grid__info-exp">тренерский стаж более 10 лет</p>
+									<p class="grid__info-edu">высшее спортивное образование</p>
+								</div>
+								<div class="team__grid-img second__coach-pic">
+									<img data-src="img/team/coach02.jpg" alt="тренер">
+								</div>
+							</div>
+							<div class="team__grid-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quaerat fugit voluptas tempora. Officiis nesciunt fuga rerum! Voluptatum a esse sit nihil quis ipsa vero? Ea porro in laborum esse? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, odit? Delectus cumque accusantium rerum voluptas soluta inventore laboriosam voluptatibus quibusdam velit quisquam similique vel ratione laudantium, incidunt sit tenetur provident? Quibusdam tempora omnis modi voluptates necessitatibus quasi quisquam eligendi autem!
+							</div>
+						</div>
+
+						<div class="team__grid-item">
+							<div class="team__grid-top">
+								<div class="team__grid-img">
+									<img data-src="img/team/coach01.jpg" alt="тренер">
+								</div>
+								<div class="team__grid-info grid__info">
+									<p class="grid__info-name info__name">Бурлова Елена Васильевна</p>
+									<p class="grid__info-job">инструктор TTClub Angarsk</p>
+									<p class="grid__info-exp">педагогический стаж более 10 лет</p>
+									<p class="grid__info-edu">средне-специальное спортивное образование</p>
+								</div>
+							</div>
+							<div class="team__grid-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quaerat fugit voluptas tempora. Officiis nesciunt fuga rerum! Voluptatum a esse sit nihil quis ipsa vero? Ea porro in laborum esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nesciunt?
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- ================================Gallery=================================== -->
+
+			<section class="gallery" id="gallery">
+				<div class="gallery__container __container">
+					<h2 class="gallery__title section__title">Соревнования и турниры</h2>
+					<p class="gallery__subtitle subtitle">мы регулярно проводим турниры для игроков
+						разного уровня подговки </p>
+				</div>
+			</section>
+
+			<div class="gallery__body">
+				<div class="gallery__body-container __container">
+					<div class="grid__gallery">
+						<div class="grid__gallery-item pic__1">
+							<img data-src="img/gallery/galery01.jpg" alt="человек играет в настольный теннис" class="pic__one">
+						</div>
+						<div class="grid__gallery-item pic__2">
+							<img data-src="img/gallery/galery04.jpg" alt="человек играет в настольный теннис" class="pic__two">
+						</div>
+
+						<div class="grid__gallery-item pic__3">
+							<img data-src="img/gallery/galery03.jpg" alt="человек играет в настольный теннис" class="pic__three">
+						</div>
+
+						<div class="grid__gallery-item pic__4">
+							<img data-src="img/gallery/galery04.jpg" alt="человек играет в настольный теннис" class="pic__four">
+						</div>
+
+						<div class="grid__gallery-item pic__5">
+							<img data-src="img/gallery/galery05.jpg" alt="человек играет в настольный теннис" class="pic__five">
+						</div>
+
+						<div class="grid__gallery-item pic__6">
+							<img data-src="img/gallery/galery07.jpg" alt="человек играет в настольный теннис" class="pic__six">
+						</div>
+
+						<div class="grid__gallery-item pic__8">
+							<img data-src="img/gallery/kid01.jpg" alt="человек играет в настольный теннис" class="pic__eight">
+						</div>
+
+						<div class="grid__gallery-item pic__9">
+							<img data-src="img/gallery/kid03.jpg" alt="человек играет в настольный теннис" class="pic__nine">
+						</div>
+
+						<div class="grid__gallery-item pic__10">
+							<img data-src="img/gallery/kid04.jpg" alt="человек играет в настольный теннис" class="pic__ten">
+						</div>
+
+					</div>
+					<a href="#ourgallery" class="gallery__btn white__btn">Галерея</a>
+				</div>
+			</div>
+
+		</main>
+		<!-- ==================================Footer Contactus========================== -->
+
+		<section class="footer__top contactus" id="contactus">
+			<div class="footer__top-container __container">
+				<h2 class="footer__top-title section__title">Как нас найти</h2>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__container __container">
+				<div class="footer__row">
+
+					<div class="footer__info">
+						<div class="footer__info-title">Мы находимся по адресу:</div>
+						<div class="footer__info-body">
+
+							<div class="footer__info-location footer__info-item">
+								<div class="footer__info-icon">
+									<svg width="20px" height="20px" viewBox="0 0 20 25" fill="#212529">
+										<path d="M10 4.6875C7.24297 4.6875 5 6.79028 5 9.375C5 11.9597 7.24297 14.0625 10 14.0625C12.757 14.0625 15 11.9597 15 9.375C15 6.79028 12.757 4.6875 10 4.6875ZM10 12.5C8.16198 12.5 6.66667 11.0981 6.66667 9.375C6.66667 7.65186 8.16198 6.25 10 6.25C11.838 6.25 13.3333 7.65186 13.3333 9.375C13.3333 11.0981 11.838 12.5 10 12.5ZM10 0C4.47714 0 0 4.19731 0 9.375C0 13.1549 1.40469 14.2105 8.97229 24.4956C9.46885 25.1681 10.5311 25.1682 11.0278 24.4956C18.5953 14.2105 20 13.1549 20 9.375C20 4.19731 15.5229 0 10 0ZM10 23.1412C2.74505 13.3051 1.66667 12.5241 1.66667 9.375C1.66667 7.28818 2.53349 5.32632 4.10745 3.85073C5.68141 2.37515 7.77406 1.5625 10 1.5625C12.2259 1.5625 14.3186 2.37515 15.8926 3.85073C17.4665 5.32632 18.3333 7.28818 18.3333 9.375C18.3333 12.5239 17.2556 13.3042 10 23.1412Z" />
+									</svg>
+
+								</div>
+								<p class="footer__info-text footer__text">г. Ангарск, 212 квартал, 15</p>
+							</div>
+
+							<div class="footer__info-workhours footer__info-item">
+								<div class="footer__info-icon">
+									<svg height="20px" viewBox="0 0 96 96" width="20px" fill="#212529">
+										<path d="M48,4C23.7,4,4,23.7,4,48c0,24.301,19.7,44,44,44c24.301,0,44-19.699,44-44C92,23.7,72.301,4,48,4z M48,84  c-19.882,0-36-16.118-36-36s16.118-36,36-36s36,16.118,36,36S67.882,84,48,84z" />
+										<path d="M52,46.343V24c0-2.209-1.791-4-4-4s-4,1.791-4,4v24c0,0.009,0.003,0.018,0.003,0.027c0.001,0.253,0.026,0.506,0.076,0.755  c0.024,0.123,0.069,0.234,0.104,0.354c0.039,0.132,0.069,0.266,0.122,0.395c0.058,0.138,0.136,0.264,0.208,0.394  c0.054,0.1,0.097,0.2,0.16,0.295c0.147,0.221,0.314,0.428,0.501,0.613l11.311,11.312c1.562,1.562,4.097,1.562,5.658,0  c1.562-1.562,1.562-4.097,0-5.656L52,46.343z" />
+									</svg>
+								</div>
+								<div class="work__hours-wrapper">
+									<p class="footer__info-text work__hours">режим работы клуба: </p>
+									<p class="footer__info-text"> <span class="time footer__text">пн-пт</span> с 9:00 до 20:00</p>
+									<p class="footer__info-text footer__text">сб - выходной</p>
+								</div>
+
+							</div>
+
+
+
+							<div class="footer__info-icons footer__media">
+								<div class="footer__media-icon">
+									<a href="#"><svg width="30px" height="30px" viewBox="0 0 30 30" fill="#212529">
+											<path d="M15.0033 7.30838C10.7468 7.30838 7.31344 10.7425 7.31344 15C7.31344 19.2575 10.7468 22.6916 15.0033 22.6916C19.2599 22.6916 22.6933 19.2575 22.6933 15C22.6933 10.7425 19.2599 7.30838 15.0033 7.30838ZM15.0033 20.0006C12.2527 20.0006 10.0039 17.758 10.0039 15C10.0039 12.242 12.246 9.99944 15.0033 9.99944C17.7607 9.99944 20.0028 12.242 20.0028 15C20.0028 17.758 17.754 20.0006 15.0033 20.0006ZM24.8015 6.99375C24.8015 7.99119 23.9983 8.7878 23.0078 8.7878C22.0106 8.7878 21.2142 7.98449 21.2142 6.99375C21.2142 6.00301 22.0173 5.19971 23.0078 5.19971C23.9983 5.19971 24.8015 6.00301 24.8015 6.99375ZM29.8946 8.81457C29.7808 6.41136 29.232 4.28261 27.4718 2.52873C25.7184 0.774852 23.5901 0.225929 21.1874 0.105433C18.7111 -0.0351445 11.2889 -0.0351445 8.8126 0.105433C6.41662 0.219235 4.28834 0.768158 2.52817 2.52203C0.767987 4.27591 0.225878 6.40466 0.10541 8.80788C-0.0351366 11.2847 -0.0351366 18.7086 0.10541 21.1854C0.219186 23.5886 0.767987 25.7174 2.52817 27.4713C4.28834 29.2251 6.40993 29.7741 8.8126 29.8946C11.2889 30.0351 18.7111 30.0351 21.1874 29.8946C23.5901 29.7808 25.7184 29.2318 27.4718 27.4713C29.2253 25.7174 29.7741 23.5886 29.8946 21.1854C30.0351 18.7086 30.0351 11.2914 29.8946 8.81457ZM26.6955 23.843C26.1735 25.1551 25.1629 26.1659 23.8444 26.6947C21.8701 27.478 17.1852 27.2972 15.0033 27.2972C12.8215 27.2972 8.12995 27.4713 6.1623 26.6947C4.85053 26.1726 3.83993 25.1618 3.31121 23.843C2.52817 21.8682 2.70887 17.1823 2.70887 15C2.70887 12.8177 2.53486 8.12507 3.31121 6.15698C3.83324 4.84492 4.84384 3.8341 6.1623 3.30525C8.13664 2.52203 12.8215 2.70278 15.0033 2.70278C17.1852 2.70278 21.8767 2.52873 23.8444 3.30525C25.1562 3.8274 26.1668 4.83822 26.6955 6.15698C27.4785 8.13176 27.2978 12.8177 27.2978 15C27.2978 17.1823 27.4785 21.8749 26.6955 23.843Z" />
+										</svg></a>
+								</div>
+								<div class="footer__media-icon">
+									<a href="#"><svg width="30px" height="30px" fill="#212529" viewBox="0 0 512 512">
+											<path d="M444 49.9C431.3 38.2 379.9.9 265.3.4c0 0-135.1-8.1-200.9 52.3C27.8 89.3 14.9 143 13.5 209.5c-1.4 66.5-3.1 191.1 117 224.9h.1l-.1 51.6s-.8 20.9 13 25.1c16.6 5.2 26.4-10.7 42.3-27.8 8.7-9.4 20.7-23.2 29.8-33.7 82.2 6.9 145.3-8.9 152.5-11.2 16.6-5.4 110.5-17.4 125.7-142 15.8-128.6-7.6-209.8-49.8-246.5zM457.9 287c-12.9 104-89 110.6-103 115.1-6 1.9-61.5 15.7-131.2 11.2 0 0-52 62.7-68.2 79-5.3 5.3-11.1 4.8-11-5.7 0-6.9.4-85.7.4-85.7-.1 0-.1 0 0 0-101.8-28.2-95.8-134.3-94.7-189.8 1.1-55.5 11.6-101 42.6-131.6 55.7-50.5 170.4-43 170.4-43 96.9.4 143.3 29.6 154.1 39.4 35.7 30.6 53.9 103.8 40.6 211.1zm-139-80.8c.4 8.6-12.5 9.2-12.9.6-1.1-22-11.4-32.7-32.6-33.9-8.6-.5-7.8-13.4.7-12.9 27.9 1.5 43.4 17.5 44.8 46.2zm20.3 11.3c1-42.4-25.5-75.6-75.8-79.3-8.5-.6-7.6-13.5.9-12.9 58 4.2 88.9 44.1 87.8 92.5-.1 8.6-13.1 8.2-12.9-.3zm47 13.4c.1 8.6-12.9 8.7-12.9.1-.6-81.5-54.9-125.9-120.8-126.4-8.5-.1-8.5-12.9 0-12.9 73.7.5 133 51.4 133.7 139.2zM374.9 329v.2c-10.8 19-31 40-51.8 33.3l-.2-.3c-21.1-5.9-70.8-31.5-102.2-56.5-16.2-12.8-31-27.9-42.4-42.4-10.3-12.9-20.7-28.2-30.8-46.6-21.3-38.5-26-55.7-26-55.7-6.7-20.8 14.2-41 33.3-51.8h.2c9.2-4.8 18-3.2 23.9 3.9 0 0 12.4 14.8 17.7 22.1 5 6.8 11.7 17.7 15.2 23.8 6.1 10.9 2.3 22-3.7 26.6l-12 9.6c-6.1 4.9-5.3 14-5.3 14s17.8 67.3 84.3 84.3c0 0 9.1.8 14-5.3l9.6-12c4.6-6 15.7-9.8 26.6-3.7 14.7 8.3 33.4 21.2 45.8 32.9 7 5.7 8.6 14.4 3.8 23.6z" />
+										</svg></a>
+								</div>
+
+								<div class="footer__info-tel">
+									<svg width="20px" height="20px" viewBox="0 0 20 20" fill="#212529">
+										<path d="M19.4296 14.1327L15.0546 12.2577C14.8677 12.178 14.6599 12.1612 14.4627 12.2099C14.2654 12.2585 14.0893 12.3698 13.9608 12.5272L12.0233 14.8944C8.98248 13.4607 6.53535 11.0136 5.10165 7.97283L7.46888 6.0353C7.62657 5.90705 7.73818 5.73091 7.78681 5.53355C7.83545 5.3362 7.81846 5.12837 7.73842 4.94153L5.86338 0.566453C5.77554 0.365046 5.62016 0.200605 5.42406 0.101483C5.22796 0.00236144 5.00341 -0.0252272 4.78915 0.0234743L0.726575 0.960991C0.519997 1.00869 0.335688 1.12501 0.203728 1.29095C0.0717689 1.45689 -4.75872e-05 1.66266 2.36575e-08 1.87468C2.36575e-08 11.8944 8.12123 20 18.1253 20C18.3374 20.0001 18.5433 19.9284 18.7093 19.7964C18.8753 19.6644 18.9917 19.4801 19.0394 19.2734L19.9769 15.2109C20.0253 14.9955 19.9971 14.7701 19.8972 14.5733C19.7973 14.3765 19.632 14.2207 19.4296 14.1327Z" />
+									</svg>
+									<a href="tel:89025432545" class="footer__info-tel-link footer__text">+7 902 543 25 45</a>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+					<div class="footer__map">
+						<iframe data-src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d41137ed64b42fdb58d0c5d01ece3fce528ce14cd3365be81a4421a6f185072&amp;source=constructor" width="100%" height="350" frameborder="0" class="map__frame"></iframe>
+					</div>
+				</div>
+				<!-- ================================Links===================================== -->
+				<div class="footer__contacts">
+
+					<div class="footer__contacts-item">
+						<div class="nav__logo footer__logo">
+							<a href="index.html">
+								<img src="img/logo6.png" alt="logo TTclub Angarsk">
+							</a>
+						</div>
+						<p class="footer__contacts-address">Ангарск, 212 кв, 15</p>
+						<div class="small__phone-row">
+							<div class="small__phone">
+								<svg width="15px" height="15px" viewBox="0 0 20 20" fill="#FCF9F2">
+									<path d="M19.4296 14.6706L15.0546 12.7955C14.8677 12.7159 14.6599 12.6991 14.4627 12.7477C14.2654 12.7963 14.0893 12.9077 13.9608 13.0651L12.0233 15.4323C8.98248 13.9986 6.53535 11.5515 5.10165 8.51068L7.46888 6.57314C7.62657 6.44489 7.73818 6.26875 7.78681 6.07139C7.83545 5.87404 7.81846 5.66621 7.73841 5.47937L5.86338 1.10429C5.77553 0.902888 5.62016 0.738446 5.42406 0.639325C5.22795 0.540203 5.00341 0.512615 4.78914 0.561316L0.726575 1.49883C0.519997 1.54654 0.335687 1.66285 0.203728 1.82879C0.0717689 1.99474 -4.75872e-05 2.20051 2.36575e-08 2.41252C2.36575e-08 12.4322 8.12123 20.5378 18.1253 20.5378C18.3374 20.538 18.5433 20.4662 18.7093 20.3342C18.8753 20.2023 18.9917 20.0179 19.0394 19.8113L19.9769 15.7487C20.0253 15.5334 19.9971 15.3079 19.8972 15.1112C19.7973 14.9144 19.632 14.7586 19.4296 14.6706Z" />
+								</svg>
+
+							</div>
+							<a href="tel:89025432545" class="small__tel">+7 902 543 25 45</a>
+						</div>
+					</div>
+
+					<div class="footer__contacts-item">
+						<div class="spollers__block">
+							<div data-spollers="650,max" class="spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										<div class="footer__contacts-title">Полезные ссылки</div>
+									</button>
+									<div class="spollers__body">
+										<ul class="footer__list">
+											<li class="header__list-item footer__list-item">
+												<a data-goto="#welcome" href="#" class="header__link menu__link footer__link">О НАС </a>
+											</li>
+											<li class="header__list-item footer__list-item">
+												<a data-goto="#team" href="#" class="header__link menu__link footer__link">ТРЕНЕРЫ</a>
+											</li>
+											<li class="header__list-item footer__list-item">
+												<a data-goto="#services" href="#" class="header__link menu__link footer__link">ПРАЙС </a>
+											</li>
+											<li class="header__list-item footer__list-item">
+												<a data-goto="#gallery" href="#" class="header__link menu__link footer__link">ЖИЗНЬ КЛУБА</a>
+											</li>
+											<li class="header__list-item footer__list-item">
+												<a data-goto="#contactus" href="#" class="header__link menu__link footer__link"> КОНТАКТЫ</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div data-spollers="650,max" class="spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">
+										<div class="footer__contacts-title">Жизнь клуба</div>
+									</button>
+									<div class="spollers__body">
+										<ul class="footer__list">
+											<li class="header__list-item footer__list-item">
+												<a href="#welcome" class="header__link menu__link footer__link">СОБЫТИЯ</a>
+											</li>
+											<li class="header__list-item footer__list-item">
+												<a href="#gallery" class="header__link menu__link footer__link">ГАЛЕРЕЯ</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<!-- =============================================Footer-copy=================== -->
+
+		<div class="footer__copy">
+			<div class="footer__copy-wrapper">
+				<span class="footer__copy-text copy__text">© 2022</span>
+				<span class="footer__copy-text copy__text">TTTClub Angarsk</span>
+				<span class="footer__copy-text copy__text">Все права защищены.</span>
+			</div>
+		</div>
+
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
